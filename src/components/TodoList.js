@@ -1,6 +1,7 @@
 import React from 'react';
 import Todo from './Todo';
 
+
 const TodoList = ({ todos, setTodos, filteredTodos }) => {
     return (
         <div className="todo-container">
@@ -17,5 +18,6 @@ const TodoList = ({ todos, setTodos, filteredTodos }) => {
         </div>
     );
 }
+
 
 export default TodoList;

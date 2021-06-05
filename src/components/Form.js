@@ -30,10 +30,11 @@ return (
       <select onChange={statusHandler} name="todo" className="filter-todo">
         <option value="all">All</option>
         <option value="completed">Completed</option>
-        <option value="uncompleted">Uncompleted</option>
+        <option value="Incomplete">Incomplete</option>
       </select>
     </div>
   </form>
+  
 );
 }
 
